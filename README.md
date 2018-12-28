@@ -1,3 +1,8 @@
 # 一些分享
 
+<<<<<<< HEAD
 * [HTML 和 CSS 基础](https://ppt.baomitu.com/d/b0a7b064) by [韩红淑](https://github.com/miss0401)
+=======
+* [HTML 和 CSS 基础](https://ppt.baomitu.com/d/b0a7b064) by 韩红淑 @miss0401
+* [唱吧小程序之初体验](https://github.com/ChangbaFE/presentation/miniprogram_ppt/index.html) by 李冠群 @jasonli1990
+>>>>>>> MAINT: update readme @liguanqun
