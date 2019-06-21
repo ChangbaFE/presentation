@@ -8,3 +8,4 @@
 * [有意思的HTTP](https://github.com/CongratulateWE/NoteBook/issues/7#issue-403103844) by 王江波
 * [PHP中的数组](https://github.com/ChangbaFE/presentation/tree/master/static_ppt/array_in_php) by wangjunpeng
 * [promise实现](https://juejin.im/post/5caf147af265da035d0c698a) by [tanka](https://github.com/Tankas)
+* [Nginx 详解](https://github.com/ChangbaFE/presentation/tree/master/static_ppt/nginx.ppt) by 张祖振
