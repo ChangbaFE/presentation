@@ -9,3 +9,4 @@
 * [PHP中的数组](https://github.com/ChangbaFE/presentation/tree/master/static_ppt/array_in_php) by wangjunpeng
 * [promise实现](https://juejin.im/post/5caf147af265da035d0c698a) by [tanka](https://github.com/Tankas)
 * [Nginx 详解](https://github.com/ChangbaFE/presentation/tree/master/static_ppt/nginx.ppt) by 张祖振
+* [Babel 插件开发入门](https://hex-ci.github.io/presentation/babel-plugin.html) by @[Hex](https://github.com/hex-ci)
