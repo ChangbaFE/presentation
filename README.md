@@ -14,3 +14,4 @@
 * [前端项目的开发环境与构建工具](https://hex-ci.github.io/presentation/changba-tools.html) by @[Hex](https://github.com/hex-ci)
 * [你不知道的几个前端小工具](https://hex-ci.github.io/presentation/fe-tools.html) by @[Hex](https://github.com/hex-ci)
 * [JavaScript 引擎、运行时和调用栈概述](https://hex-ci.github.io/presentation/engine-runtime-call-stack.html) by @[Hex](https://github.com/hex-ci)
+* [JavaScript 是如何工作的：Web Workers 分类及 5 个使用场景](https://github.com/greatjiang/webworkers-note) by [姜志伟](https://github.com/greatjiang)
