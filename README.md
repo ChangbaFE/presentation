@@ -16,3 +16,4 @@
 * [JavaScript 引擎、运行时和调用栈概述](https://hex-ci.github.io/presentation/engine-runtime-call-stack.html) by @[Hex](https://github.com/hex-ci)
 * [JavaScript 是如何工作的：Web Workers 分类及 5 个使用场景](https://github.com/greatjiang/webworkers-note) by [姜志伟](https://github.com/greatjiang)
 * [Webpack 基础](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/webpack.md) by 李奡
+* [内存管理及如何处理4类常见的内存泄漏问题](https://ppt.baomitu.com/d/3fd42a53) by [韩红淑](https://github.com/miss0401)
