@@ -10,3 +10,7 @@
 * [promise实现](https://juejin.im/post/5caf147af265da035d0c698a) by [tanka](https://github.com/Tankas)
 * [Nginx 详解](https://github.com/ChangbaFE/presentation/tree/master/static_ppt/nginx.ppt) by 张祖振
 * [Babel 插件开发入门](https://hex-ci.github.io/presentation/babel-plugin.html) by @[Hex](https://github.com/hex-ci)
+* [前端工程的昨天、今天和明天](https://hex-ci.github.io/presentation/web-history.html) by @[Hex](https://github.com/hex-ci)
+* [前端项目的开发环境与构建工具](https://hex-ci.github.io/presentation/changba-tools.html) by @[Hex](https://github.com/hex-ci)
+* [你不知道的几个前端小工具](https://hex-ci.github.io/presentation/fe-tools.html) by @[Hex](https://github.com/hex-ci)
+* [JavaScript 引擎、运行时和调用栈概述](https://hex-ci.github.io/presentation/engine-runtime-call-stack.html) by @[Hex](https://github.com/hex-ci)
