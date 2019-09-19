@@ -21,4 +21,5 @@
 * [不摸手后台开发引导](https://ppt.baomitu.com/d/3002f221) by [小西瓜](https://github.com/limengli9011)
 
 * [深入理解 WebSockets 和带有 SSE 机制的HTTP/2 以及正确的使用姿势](https://ppt.baomitu.com/d/9ad5740d#/) by [刘泽东](https://github.com/sansiro-me)
+* [火星多页面应用框架](https://github.com/ChangbaFE/mars-multipages-seed) by [JasonLi](https://github.com/JasonLi1990)
 
