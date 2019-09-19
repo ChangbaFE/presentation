@@ -17,3 +17,5 @@
 * [JavaScript 是如何工作的：Web Workers 分类及 5 个使用场景](https://github.com/greatjiang/webworkers-note) by [姜志伟](https://github.com/greatjiang)
 * [Webpack 基础](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/webpack.md) by 李奡
 * [内存管理及如何处理4类常见的内存泄漏问题](https://ppt.baomitu.com/d/3fd42a53) by [韩红淑](https://github.com/miss0401)
+* [唱歌分一亿之动画](https://ppt.baomitu.com/d/a16cd05b) by 鄢敏
+* [不摸手后台开发引导](https://ppt.baomitu.com/d/3002f221) by 李梦莉
