@@ -22,4 +22,6 @@
 
 * [深入理解 WebSockets 和带有 SSE 机制的HTTP/2 以及正确的使用姿势](https://ppt.baomitu.com/d/9ad5740d#/) by [刘泽东](https://github.com/sansiro-me)
 * [火星基于Vue-Cli和Webpack搭建多页面应用框架](https://github.com/ChangbaFE/mars-multipages-seed) by [JasonLi](https://github.com/JasonLi1990)
-
+* [MySQL](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/mysql.pdf) by lander
+* [安全](https://ppt.baomitu.com/d/aaf6f73b) by lander
+* [MySQL谈谈](https://github.com/ouqq235/study/blob/master/mysql%E6%B5%85%E8%B0%88.md) by 欧立楠
