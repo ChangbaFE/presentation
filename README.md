@@ -28,3 +28,4 @@
 * [WebRTC简介](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/WebRTC%E7%AE%80%E4%BB%8B.key) by [Joey](https://github.com/qiaoxueshi/)
 * [VSCode插件之字数统计、翻译](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/wordcount.md) by [guoruibiao](https://github.com/guoruibiao)
 * [grid基础](https://ppt.baomitu.com/d/177976b0) by [庞博文](https://github.com/Y-ZZZzmzZZZ-H)
+* [从前端角度看weex](https://ppt.baomitu.com/d/57b7f5cb) by 张馨月
