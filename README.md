@@ -1,4 +1,6 @@
-# 一些分享
+# 唱吧前端技术分享会
+
+## 第一季
 
 * [HTML 和 CSS 基础](https://ppt.baomitu.com/d/b0a7b064) by [韩红淑](https://github.com/miss0401)
 * [唱吧小程序之初体验](https://github.com/ChangbaFE/presentation/blob/master/miniprogram_ppt/index.html) by @[jasonli1990](https://github.com/JasonLi1990)
@@ -29,3 +31,7 @@
 * [VSCode插件之字数统计、翻译](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/wordcount.md) by [guoruibiao](https://github.com/guoruibiao)
 * [grid基础](https://ppt.baomitu.com/d/177976b0) by [庞博文](https://github.com/Y-ZZZzmzZZZ-H)
 * [从前端角度看weex](https://ppt.baomitu.com/d/57b7f5cb) by 张馨月
+
+## 第二季
+
+* [Awk 的使用](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/awk.pptx) by 叨姐
