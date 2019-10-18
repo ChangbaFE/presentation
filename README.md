@@ -35,3 +35,4 @@
 ## 第二季
 
 * [Awk 的使用](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/awk.pptx) by 叨姐
+* [渲染引擎及性能优化小技巧](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/渲染引擎及性能优化小技巧.pptx) by [小西瓜](https://github.com/limengli9011)
