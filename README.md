@@ -37,4 +37,5 @@
 * [Awk 的使用](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/awk.pptx) by 叨姐
 * [渲染引擎及性能优化小技巧](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/渲染引擎及性能优化小技巧.pptx) by [小西瓜](https://github.com/limengli9011)
 * [Shadow DOM的概念和基本应用](https://ppt.baomitu.com/d/95706112) by 王江波
-* [Flutter](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/Flutter.pptx) by [Jamse]
+* [Flutter](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/Flutter.pptx) by [Jamse](https://github.com/orgs/ChangbaFE/people/yueshuai1992)
+* [Git 技术分享](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB%20Git.key) by [Fengchuanmao](https://github.com/Fengchuanmao)
