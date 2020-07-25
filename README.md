@@ -40,3 +40,4 @@
 * [Flutter](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/Flutter.pptx) by [Jamse](https://github.com/orgs/ChangbaFE/people/yueshuai1992)
 * [Git 技术分享](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB%20Git.key) by [Fengchuanmao](https://github.com/Fengchuanmao)
 * [Vue 数据双向绑定原理](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/vue%E6%95%B0%E6%8D%AE%E5%8F%8C%E5%90%91%E7%BB%91%E5%AE%9A%E5%8E%9F%E7%90%86.pptx) by [khh](https://github.com/khh8023lyf)
+* [登录表单最佳实践](https://hex-ci.github.io/presentation/sign-in-form-best-practices.html) by [Hex](https://github.com/hex-ci)
