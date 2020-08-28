@@ -43,4 +43,4 @@
 * [登录表单最佳实践](https://hex-ci.github.io/presentation/sign-in-form-best-practices.html) by [Hex](https://github.com/hex-ci)
 * [web安全-附攻击demo案例和防御demo](https://ppt.baomitu.com/p/a3926cbc#/) by [hgf](https://github.com/hangfgithub)
 * [浏览器相关](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9B%B8%E5%85%B3.xmind) by 李奡
-* [Event Loop](https://ppt.baomitu.com/d/94032bb2) [eventloop 测试代码](https://github.com/somewhereonlyweknow/learn-space/tree/master/event-loop) [promise 代码](https://github.com/somewhereonlyweknow/learn-space/tree/master/promise) [async/await 代码](https://github.com/somewhereonlyweknow/learn-space/tree/master/async-await) by 李奡
+* [Event Loop ppt](https://ppt.baomitu.com/d/94032bb2) ,[eventloop 测试代码](https://github.com/somewhereonlyweknow/learn-space/tree/master/event-loop) ,[promise 代码](https://github.com/somewhereonlyweknow/learn-space/tree/master/promise) ,[async/await 代码](https://github.com/somewhereonlyweknow/learn-space/tree/master/async-await) by 李奡
