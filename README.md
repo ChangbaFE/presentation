@@ -21,7 +21,6 @@
 * [内存管理及如何处理4类常见的内存泄漏问题](https://ppt.baomitu.com/d/3fd42a53) by [韩红淑](https://github.com/miss0401)
 * [唱歌分一亿之动画](https://ppt.baomitu.com/d/a16cd05b) by [鄢敏](https://github.com/littlemonsterAmy)
 * [不摸手后台开发引导](https://ppt.baomitu.com/d/3002f221) by [小西瓜](https://github.com/limengli9011)
-
 * [深入理解 WebSockets 和带有 SSE 机制的HTTP/2 以及正确的使用姿势](https://ppt.baomitu.com/d/9ad5740d#/) by [刘泽东](https://github.com/sansiro-me)
 * [火星基于Vue-Cli和Webpack搭建多页面应用框架](https://github.com/ChangbaFE/mars-multipages-seed) by [JasonLi](https://github.com/JasonLi1990)
 * [MySQL](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/mysql.pdf) by lander
