@@ -47,3 +47,4 @@
 * [博弈论及其经典案例](https://github.com/air-3/1-byl-cb) by 侯世松
 * [一个前端的基础正则修养](https://ppt.baomitu.com/d/0f4a196d#/) - [老姚的正则表达式迷你书(点击下载)](https://github.com/qdlaoyao/js-regex-mini-book)[(在线观看)](https://github.com/sansiro-me/daily-notes/blob/master/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/JavaScript%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E8%BF%B7%E4%BD%A0%E4%B9%A6---%E8%80%81%E5%A7%9A.pdf) by [sansiro](https://github.com/sansiro-me)
 * [队列知识分享](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E9%98%9F%E5%88%97%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB.ppt) by 叨姐
+* [浅谈网络](https://github.com/xietingcindy/ppt/blob/main/%E6%B5%85%E8%B0%88%E7%BD%91%E7%BB%9C.pptx) by 谢婷
