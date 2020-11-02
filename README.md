@@ -49,4 +49,4 @@
 * [队列知识分享](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E9%98%9F%E5%88%97%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB.ppt) by 叨姐
 * [浅谈网络](https://github.com/xietingcindy/ppt/blob/main/%E6%B5%85%E8%B0%88%E7%BD%91%E7%BB%9C.pptx) by 谢婷
 * [CSS基本概念和实用技巧](https://ppt.baomitu.com/d/4266614a)【[视频](https://www.bilibili.com/video/BV1PD4y1977p)】by 王江波
-* [Cache](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/cache.pptx) by 黄波
+* [Cache](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/cache.pptx) 【[视频](https://www.bilibili.com/video/BV1ZV411y7LQ/)】by 黄波
