@@ -51,3 +51,4 @@
 * [CSS基本概念和实用技巧](https://ppt.baomitu.com/d/4266614a)【[视频](https://www.bilibili.com/video/BV1PD4y1977p)】by 王江波
 * [Cache](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/cache.pptx)【[视频](https://www.bilibili.com/video/BV1ZV411y7LQ/)】by 黄波
 * [WebRTC](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/webrtc.pptx)【[视频](https://www.bilibili.com/video/BV1yr4y1w7vy/)】by 罗辉
+* [JS基础学习](https://github.com/somewhereonlyweknow/learn-space/tree/master/js-learn)
