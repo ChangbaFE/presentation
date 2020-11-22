@@ -52,4 +52,4 @@
 * [Cache](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/cache.pptx)【[视频](https://www.bilibili.com/video/BV1ZV411y7LQ/)】by 黄波
 * [WebRTC](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/webrtc.pptx)【[视频](https://www.bilibili.com/video/BV1yr4y1w7vy/)】by 罗辉
 * [JS基础学习](https://github.com/somewhereonlyweknow/learn-space/tree/master/js-learn)【[视频](https://www.bilibili.com/video/BV11K411G7m8/)】by 李奡
-* [了解QUIC](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/quic.pptx) by 张叶
+* [了解QUIC](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/quic.pptx)【[视频](https://www.bilibili.com/video/BV1fr4y1F7BD/)】by 张叶
