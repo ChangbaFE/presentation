@@ -38,7 +38,7 @@
 * [渲染引擎及性能优化小技巧](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/渲染引擎及性能优化小技巧.pptx) by [小西瓜](https://github.com/limengli9011)
 * [Shadow DOM的概念和基本应用](https://ppt.baomitu.com/d/95706112) by 王江波
 * [Flutter](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/Flutter.pptx) by [Jamse](https://github.com/orgs/ChangbaFE/people/yueshuai1992)
-* [Git 技术分享](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB%20Git.key) by [Fengchuanmao](https://github.com/Sugar0106)
+* [Git 技术分享](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB%20Git.key) by [Sugar0106](https://github.com/Sugar0106)
 * [Vue 数据双向绑定原理](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/vue%E6%95%B0%E6%8D%AE%E5%8F%8C%E5%90%91%E7%BB%91%E5%AE%9A%E5%8E%9F%E7%90%86.pptx) by [khh](https://github.com/khh8023lyf)
 * [登录表单最佳实践](https://hex-ci.github.io/presentation/sign-in-form-best-practices.html) by [Hex](https://github.com/hex-ci)
 * [web安全-附攻击demo案例和防御demo](https://ppt.baomitu.com/p/a3926cbc#/) by [hgf](https://github.com/hangfgithub)
@@ -55,4 +55,4 @@
 * [JS基础学习](https://github.com/somewhereonlyweknow/learn-space/tree/master/js-learn)【[视频](https://www.bilibili.com/video/BV11K411G7m8/)】by 李奡
 * [了解QUIC](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/quic.pptx)【[视频](https://www.bilibili.com/video/BV1fr4y1F7BD/)】by 张叶
 * [FE Motion Design](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/FEMotionDesign.pptx)【[视频](https://www.bilibili.com/video/BV1uy4y1q7ik/)】by Jamse
-* [秒杀系统](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F.key) by [Fengchuanmao](https://github.com/Suagr0106)
+* [秒杀系统](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F.key) by [Sugar0106](https://github.com/Suagr0106)
