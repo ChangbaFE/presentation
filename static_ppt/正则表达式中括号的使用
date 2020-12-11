@@ -1,0 +1,358 @@
+# 一名前端的基础正则修养
+
+### 概念
+
+- #### 什么是正则？
+
+正则表达式，又称规则表达式。（英语：Regular Expression，在代码中常简写为regex、regexp或RE），计算机科学的一个概念。正则表达式通常被用来检索、替换那些符合某个模式(规则)的文本。
+
+> [详解](https://note.youdao.com/)
+
+- #### 正则有几种？JS 中的正则是哪种？
+
+正则引擎主要可以分为基本不同的两大类：
+1. DFA (Deterministic finite automaton) 确定型有穷自动机
+2. NFA (Non-deterministic finite automaton) 非确定型有穷自动机
+
+JS 使用的是 NFA。
+
+> [具体分析](https://segmentfault.com/a/1190000021787021)
+
+
+## 题目
+
+1. 校验手机号
+
+手机号码的校验。一般没有特殊需求，只校验开头是1的11位数字
+    
+```
+let call = '16601167965';
+console.log(/^1\d{10}$/.test(call)); // true
+```
+
+2. 校验身份证号码
+
+身份证号码可能为15位或18位，15位为全数字，18位中前17位为数字，最后一位为数字或者X
+
+3. 日期的提取
+    
+将一串字符串形式的日期转化成特定的日期格式，通过正则的提取，提取到需要的信息
+
+## 字符的匹配
+
+1. 横向模糊匹配
+2. 纵向模糊匹配
+3. 多选分支
+4. 字符组的简写
+5. 量词的简写
+6. 贪婪匹配和惰性匹配
+
+## 位置的匹配
+
+1. 位置的概念，什么是位置？
+2. 做题
+    1. 数字千分符问题
+    2. 货币格式化问题
+    3. 密码校验问题
+
+## 括号的妙用
+
+### 1. 分组
+
+表示一个整体
+
+```
+let string = "ababa abbb ababab";
+
+let reg1 = /(ab)+/g;
+console.log( string.match(reg1) ); 
+// => ["abab", "ab", "ababab"]
+
+let reg2 = /ab+/g;
+console.log( string.match(reg2) ); 
+// => ["ab", "ab", "abbb", "ab", "ab", "ab"]
+```
+
+### 2. 分支结构
+
+```
+let reg = /^Hello (World|changba)$/;
+console.log( reg.test("Hello World") );
+// => true
+
+console.log( reg.test("Hello changba") );
+// => true
+```
+
+### 3. 引用分组
+    
+    这是很重要的一个功能，常常用来作为数据的提取以及替换的操作，将需要操作的部分用括号括起来之后，就可以提取或者替换。
+    
+#### 一个常见的日期的提取功能
+
+```
+let string = "2020-12-11";
+let regex1 = /\d{4}-\d{2}-\d{2}/;
+let regex2 = /(\d{4})-(\d{2})-(\d{2})/;
+
+console.log( string.match(regex1) ); 
+// => ["2020-12-11", index: 0, input: "2020-12-11", groups: undefined]
+
+console.log( string.match(regex2) ); 
+// => ["2020-12-11", "2020", "12", "11", index: 0, input: "2020-12-11", groups: undefined]
+
+console.log( reg1.exec(string) );
+// => ["2020-12-11", index: 0, input: "2020-12-11", groups: undefined]
+
+console.log( reg2.exec(string) );
+// => ["2020-12-11", "2020", "12", "11", index: 0, input: "2020-12-11", groups: undefined]
+```
+
+#### 括号的嵌套怎么搞？结果是什么
+
+```
+let string = '2020-12-11';
+let reg = /((\d{4})-(\d{2}))-(\d{2})/;
+
+console.log( string.match(reg) );
+// => ["2020-12-11", "2020-12", "2020", "12", "11", index: 0, input: "2020-12-11", groups: undefined]
+```
+
+依据左括号 ( 出现的顺序。
+
+#### 额外小问题
+   
+match 和 exec 的区别？
+
+1. exec是RegExp类的方法，match是String类的方法
+2. exec 只会匹配第一个符合的字符串（意味着g对其不起作用），跟所有分组的反向引用。match 是否返回所有匹配的数组跟正则表达式里是否带着g有关系
+
+```
+let str = 'hello world, hello beijing!';
+let reg1 = /hello/;
+let reg2 = /hello/g;
+
+console.log( str.match(reg1) );
+// => ["hello", index: 0, input: "hello world, hello beijing!", groups: undefined]
+console.log( reg1.exec(str) );
+// => ["hello", index: 0, input: "hello world, hello beijing!", groups: undefined]
+
+console.log( str.match(reg2) );
+// => ["hello", "hello"]
+console.log( reg2.exec(str) );
+// => ["hello", index: 0, input: "hello world, hello beijing!", groups: undefined]
+
+```
+
+#### 再一个额外小问题
+
+match 方法的返回值，为什么有的时候有 input 和 index ，有的时候没有？
+
+和是否是全局匹配有关系，全局匹配时没有。
+
+#### 最后一个额外小知识
+
+match 返回值字段含义
+
+```
+console.log( string.match(regex2) ); 
+// => ["2020-12-11", "2020", "12", "11", index: 0, input: "2020-12-11", groups: undefined]
+```
+
+1. match方法在有匹配结果的时候返回值是一个数组。
+2. 数组第一个元素是match方法首次匹配到的子字符串，如果有引用分组，则接下来是引用分组的匹配内容
+3. index属性值返回首次匹配到子字符串的位置。
+4. input属性值是原字符串。
+5. groups属性当前并不被支持，暂时不做介绍。
+
+没匹配到则只返回 null
+
+#### 其他
+
+当使用引用分组，且匹配成功，可以使用构造函数的全局属性 ```$1``` 至 ```$9``` 来获取
+
+```
+let string = "2020-12-11";
+
+let regex = /(\d{4})-(\d{2})-(\d{2})/;
+
+regex.exec(string); // 这里用什么方式都行，只要执行了正则匹配
+// regex.test(string)
+// string.match(regex)
+
+console.log( RegExp.$1 );
+// => "2020"
+
+console.log( RegExp.$2 );
+// => "12"
+
+console.log( RegExp.$3 );
+// => "11"
+
+console.log( RegExp.$4 );
+// => ""
+
+console.log( RegExp.$0 );
+// => undefined
+
+```
+#### 当括号超过十个呢？
+
+```
+let reg = /(\d(\d(\d(\d(\d(\d(\d(\d(\d(\d\d(\d)))))))))))/;
+let str = '12345678901';
+
+console.log( str.match(reg) );
+// => ["12345678901", "12345678901", "2345678901", "345678901", "45678901", "5678901", "678901", "78901", "8901", "901", "01", "1", index: 0, input: "12345678901", groups: undefined]
+
+console.log( str.replace(reg, '$9--$10--$11') );
+// => "901--01--1"
+
+console.log( RegExp.$9 );
+// => "901"
+console.log( RegExp.$10 );
+// => undefined
+```
+
+
+### 4. 反向引用
+
+#### 需求
+
+传入一个日期，要求验证其满足一下形式之一。```2020-12-11```、```2020.12.11```、```2020/12/11```。
+
+```
+var regex = /\d{4}(-|\/|\.)\d{2}(-|\/|\.)\d{2}/;
+var string1 = "2020-12-11";
+var string2 = "2020/12/11";
+var string3 = "2020.12.11";
+console.log( regex.test(string1) ); // true
+console.log( regex.test(string2) ); // true
+console.log( regex.test(string3) ); // true
+```
+
+上述代码看似满足了需求，但是会出现以下情况：
+
+```
+var string4 = "2020-12/11";
+console.log( regex.test(string4) ); // true
+
+var string5 = "2020.12-11";
+console.log( regex.test(string5) ); // true
+```
+
+怎么解决？
+
+```
+var regex = /\d{4}(-|\/|\.)\d{2}\1\d{2}/;
+var string1 = "2020-12-11";
+var string2 = "2020/12/11";
+var string3 = "2020.12.11";
+var string4 = "2020-12/11";
+var string4 = "2020.12-11";
+console.log( regex.test(string1) ); // true
+console.log( regex.test(string2) ); // true
+console.log( regex.test(string3) ); // true
+console.log( regex.test(string4) ); // false
+console.log( regex.test(string5) ); // false
+```
+
+可以看到上述正则中 \1 是对前面括号内容的引用。实现了前后统一。反向引用指的是可以在正则本身里面引用之前的分组，即前面出现了某个字符，后面可以通过反向引用来拿到这个字符，然后进行想要的操作，如果引用的分组不存在，那么 \1 就是简单的对字符 1 做了转义。。
+
+一个提问
+
+请给出一个符合下面正则要求的字符串
+
+```
+var regex = /^((\d)(\d))\1\2\3$/;
+
+console.log( regex.test('121212') );
+// => true
+```
+
+这个呢？
+
+```
+var regex = /^((\d)(\d(\d)))\1\2\3\4$/;
+
+console.log( regex.test('1231231233') );
+// => true
+```
+
+### 5. 命名分组
+
+前面讲捕获分组都是通过位置编号来访问，还支持对捕获分组命名。这样就比较容易理解。
+
+```
+let string = '2020-12-11';
+let reg = /((?<year>\d{4})-(?<month>\d{2}))-(?<day>\d{2})/
+
+string.match(reg);
+
+(5) ["2020-12-11", "2020-12", "2020", "12", "11", index: 0, input: "2020-12-11", groups: {…}]
+    0: "2020-12-11"
+    1: "2020-12"
+    2: "2020"
+    3: "12"
+    4: "11"
+    groups:
+        day: "11"
+        month: "12"
+        year: "2020"
+    index: 0
+    input: "2020-12-11"
+    length: 5
+    __proto__: Array(0)
+```
+
+#### 命字分组的反向引用
+
+```
+let reg = /(?<year>\d{4})-(?<month>\d{2}--\k<year>)/;
+
+console.log( reg.test('2020-12--2020') );
+// => true
+```
+
+### 6. 非捕获分组
+
+之前文中出现的分组，都会捕获它们匹配到的数据，以便后续引用，因此也称他们是捕获型分组。
+
+而非捕获分组顾名思义，与捕获分组相反，就是不会将分组匹配的内容放在内存中。主要是为了提高性能。
+使用方法：在分组的开头加上?:
+
+```
+let string = '2020-12-11';
+let reg1 = /(\d{4})-(\d{2})-(\d{2})/;
+let reg2 = /(\d{4})-(\d{2})-(?:\d{2})/;
+
+console.log( string.match(reg1) );
+// => ["2020-12-11", "2020", "12", "11", index: 0, input: "2020-12-11", groups: undefined]
+
+console.log( string.match(reg2) );
+// => ["2020-12-11", "2020", "12", index: 0, input: "2020-12-11", groups: undefined]
+```
+
+### 7. 常见的正则方法
+
+1. trim
+
+```
+let trim = str => str.replace(/^\s+|\s+$/g, '');
+let str = '  123  ';
+
+console.log( trim(str) );
+// => "123"
+```
+
+2. 句子里单词首字母大写
+
+
+```
+let func = str => str.toLowerCase().replace(/(?:^|\s)\w/g, word => word.toUpperCase());
+
+let str = 'hello world, i am liuzedong';
+
+console.log( func(str) );
+// => "Hello World, I Am Liuzedong"
+```
