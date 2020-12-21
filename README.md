@@ -57,3 +57,4 @@
 * [FE Motion Design](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/FEMotionDesign.pptx)【[视频](https://www.bilibili.com/video/BV1uy4y1q7ik/)】by Jamse
 * [秒杀系统](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F.key)【[视频](https://www.bilibili.com/video/BV1KA411s7hW/)】by [Sugar0106](https://github.com/Suagr0106)
 * [一个前端的基础正则修养（下）- 括号的使用](/static_ppt/正则表达式中括号的使用.md)【[视频](https://www.bilibili.com/video/BV18A411s7Zd/)】by [刘泽东](https://github.com/haskr)
+* [Redis数据结构-自顶向下](/static_ppt/Redis数据结构-自顶向下.pptx)【[视频](https://www.bilibili.com/video/BV1DT4y1M7LT/)】by 王俊鹏
