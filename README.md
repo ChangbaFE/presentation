@@ -59,4 +59,4 @@
 * [一个前端的基础正则修养（下）- 括号的使用](/static_ppt/正则表达式中括号的使用.md)【[视频](https://www.bilibili.com/video/BV18A411s7Zd/)】by [刘泽东](https://github.com/haskr)
 * [Redis数据结构-自顶向下](/static_ppt/Redis数据结构-自顶向下.pptx)【[视频](https://www.bilibili.com/video/BV1DT4y1M7LT/)】by 王俊鹏
 * [高性能消息队列NSQ](/static_ppt/高性能消息队列NSQ.pptx)【[视频](https://www.bilibili.com/video/BV1Po4y1Z7oT/)】by 黄鹤
-* [CSS变量var](https://ppt.baomitu.com/d/d186bf01) by 鄢敏
+* [CSS变量var](https://ppt.baomitu.com/d/d186bf01)【[视频](https://www.bilibili.com/video/BV1bi4y1c7eU/)】by 鄢敏
