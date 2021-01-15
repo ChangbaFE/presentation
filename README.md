@@ -60,3 +60,4 @@
 * [Redis数据结构-自顶向下](/static_ppt/Redis数据结构-自顶向下.pptx)【[视频](https://www.bilibili.com/video/BV1DT4y1M7LT/)】by 王俊鹏
 * [高性能消息队列NSQ](/static_ppt/高性能消息队列NSQ.pptx)【[视频](https://www.bilibili.com/video/BV1Po4y1Z7oT/)】by 黄鹤
 * [CSS变量var](https://ppt.baomitu.com/d/d186bf01)【[视频](https://www.bilibili.com/video/BV1bi4y1c7eU/)】by 鄢敏
+* [HTTP中的编码和解码](https://ppt.baomitu.com/d/0d5c3531)【[视频](https://www.bilibili.com/video/BV1bi4y1c7eU/)】by 庞博文
