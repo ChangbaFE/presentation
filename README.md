@@ -68,3 +68,4 @@
 ## 第四季
 * [Vue 3.0新特性一览](https://ppt.baomitu.com/d/a4564092) by 王江波
 * [FE Live](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/FE-Live.pptx) by James
+* [浅尝设计模式](https://ppt.baomitu.com/d/7fdfd819) by 庞博文
