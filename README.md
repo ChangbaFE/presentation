@@ -67,4 +67,5 @@
 * [Vue 3.0新特性一览](https://ppt.baomitu.com/d/a4564092)【[视频](https://www.bilibili.com/video/BV155411P7hW/)】 by 王江波
 * [FE Live](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/FE-Live.pptx)【[视频](https://www.bilibili.com/video/BV1jb4y1Q75j/)】 by James
 * [浅尝设计模式](https://ppt.baomitu.com/d/7fdfd819)【[视频](https://www.bilibili.com/video/BV19Z4y1c7Xk/)】 by 庞博文
+* [加密算法](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E5%8A%A0%E5%AF%86%E7%AE%97%E6%B3%95.pptx) by 侯世松
 
