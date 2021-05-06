@@ -68,6 +68,6 @@
 * [FE Live](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/FE-Live.pptx)【[视频](https://www.bilibili.com/video/BV1jb4y1Q75j/)】 by James
 * [浅尝设计模式](https://ppt.baomitu.com/d/7fdfd819)【[视频](https://www.bilibili.com/video/BV19Z4y1c7Xk/)】 by 庞博文
 * [加密算法](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E5%8A%A0%E5%AF%86%E7%AE%97%E6%B3%95.pptx)【[视频](https://www.bilibili.com/video/BV1xK4y1P7Bs/)】by 侯世松
-* [css艺术](https://github.com/xietingcindy/ppt/blob/main/css%E8%89%BA%E6%9C%AF.pptx)【[demo链接](https://github.com/xietingcindy/ppt/tree/main/demo)】by 谢婷
-* [Commander](https://ppt.baomitu.com/d/00d77a27)【[笔记](https://github.com/greatjiang/commander-note)】by [GreatJiang](https://github.com/greatjiang)
+* [CSS艺术](https://github.com/xietingcindy/ppt/blob/main/css%E8%89%BA%E6%9C%AF.pptx)【[demo链接](https://github.com/xietingcindy/ppt/tree/main/demo)】【[视频](https://www.bilibili.com/video/BV1r64y127Cg/)】by 谢婷
+* [CommanderJS](https://ppt.baomitu.com/d/00d77a27)【[笔记](https://github.com/greatjiang/commander-note)】【[视频](https://www.bilibili.com/video/BV1Y64y127DC/)】by [GreatJiang](https://github.com/greatjiang)
 
