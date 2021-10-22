@@ -72,3 +72,8 @@
 * [CommanderJS](https://ppt.baomitu.com/d/00d77a27)【[笔记](https://github.com/greatjiang/commander-note)】【[视频](https://www.bilibili.com/video/BV1Y64y127DC/)】by [GreatJiang](https://github.com/greatjiang)
 * [Automan 可视化开发平台](https://hex-ci.github.io/presentation/automan.html)【[视频](https://www.bilibili.com/video/BV1wg41137f8/)】by [Hex](https://github.com/hex-ci)
 * [Vue源码一](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/vue源码（一）.pptx)【[视频](https://www.bilibili.com/video/BV1fu411d7CN/)】by 张杰
+
+## 第四季
+
+* [FE-Auto-queen](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/fe-auto-queen.pptx) 岳帅
+
