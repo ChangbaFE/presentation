@@ -76,5 +76,5 @@
 
 ## 第四季
 
-* [FE-Auto-queen](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/fe-auto-queen.pptx) 岳帅
-
+* [FE-Auto-queen](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/fe-auto-queen.pptx) by 岳帅
+* [前端冷知识 Selection 和 Range](https://hex-ci.github.io/presentation/selection-range.html) by [Hex](https://github.com/hex-ci)
