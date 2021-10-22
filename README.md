@@ -71,6 +71,7 @@
 * [CSS艺术](https://github.com/xietingcindy/ppt/blob/main/css%E8%89%BA%E6%9C%AF.pptx)【[demo链接](https://github.com/xietingcindy/ppt/tree/main/demo)】【[视频](https://www.bilibili.com/video/BV1r64y127Cg/)】by 谢婷
 * [CommanderJS](https://ppt.baomitu.com/d/00d77a27)【[笔记](https://github.com/greatjiang/commander-note)】【[视频](https://www.bilibili.com/video/BV1Y64y127DC/)】by [GreatJiang](https://github.com/greatjiang)
 * [Automan 可视化开发平台](https://hex-ci.github.io/presentation/automan.html)【[视频](https://www.bilibili.com/video/BV1wg41137f8/)】by [Hex](https://github.com/hex-ci)
+* [vite浅析](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/vite%E6%B5%85%E6%9E%90.ppt)【[视频](https://www.bilibili.com/video/BV1LP4y1b7bs/)】by [孔慧慧](https://github.com/KongHuihui-CAD)
 * [Vue源码一](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/vue源码（一）.pptx)【[视频](https://www.bilibili.com/video/BV1fu411d7CN/)】by 张杰
 
 ## 第四季
