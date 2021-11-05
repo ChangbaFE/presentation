@@ -4,14 +4,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>更新 Service Worker 1</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <title>更新 Service Worker 2</title>
 </head>
 <body>
+
+  <p>
+    这里会显示一张照片——
+  </p>
 
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', event => {
-        navigator.serviceWorker.register('sw-old.js')
+        navigator.serviceWorker.register('service-worker.js')
           .then(function(registration) {
             console.log('Service Worker 注册成功：', registration.scope);
           })
@@ -19,6 +24,12 @@
             console.log('Service Worker 注册失败：', err);
           });
       })
+
+      setTimeout(() => {
+        const img = new Image();
+        img.src = './images/sansiro.jpeg';
+        document.body.appendChild(img);
+      }, 2000);
     }
   </script>
 </body>
