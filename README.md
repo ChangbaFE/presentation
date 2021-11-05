@@ -7,7 +7,7 @@
 * [node API demo](https://github.com/greatjiang/node-cors-demo) [vue全家桶实战开发](https://github.com/greatjiang/system-jiang) [gulp入门实战](https://github.com/greatjiang/gulp-demo) by [姜志伟](https://github.com/greatjiang)
 * [react入门分享](https://github.com/ChangbaFE/presentation/tree/master/static_ppt/react) by hgf
 * [sass入门分享](https://github.com/ChangbaFE/presentation/tree/master/static_ppt/sass) by 张叶
-* [有意思的HTTP](https://github.com/CongratulateWE/NoteBook/issues/7#issue-403103844) by 王江波
+* [有意思的HTTP](https://github.com/CongratulateWE/NoteBook/issues/7#issue-403103844) by [王江波](https://github.com/CongratulateWE)
 * [PHP中的数组](https://github.com/ChangbaFE/presentation/tree/master/static_ppt/array_in_php) by wangjunpeng
 * [promise实现](https://juejin.im/post/5caf147af265da035d0c698a) by [tanka](https://github.com/Tankas)
 * [Nginx 详解](https://github.com/ChangbaFE/presentation/tree/master/static_ppt/nginx.ppt) by 张祖振
@@ -36,7 +36,7 @@
 
 * [Awk 的使用](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/awk.pptx) by 叨姐
 * [渲染引擎及性能优化小技巧](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/渲染引擎及性能优化小技巧.pptx) by [小西瓜](https://github.com/limengli9011)
-* [Shadow DOM的概念和基本应用](https://ppt.baomitu.com/d/95706112) by 王江波
+* [Shadow DOM的概念和基本应用](https://ppt.baomitu.com/d/95706112) by [王江波](https://github.com/CongratulateWE)
 * [Flutter](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/Flutter.pptx) by [James](https://github.com/orgs/ChangbaFE/people/yueshuai1992)
 * [Git 技术分享](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB%20Git.key) by [Sugar0106](https://github.com/Sugar0106)
 * [Vue 数据双向绑定原理](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/vue%E6%95%B0%E6%8D%AE%E5%8F%8C%E5%90%91%E7%BB%91%E5%AE%9A%E5%8E%9F%E7%90%86.pptx) by [khh](https://github.com/khh8023lyf)
@@ -52,7 +52,7 @@
 
 * [队列知识分享](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E9%98%9F%E5%88%97%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB.ppt) by 叨姐
 * [浅谈网络](https://github.com/xietingcindy/ppt/blob/main/%E6%B5%85%E8%B0%88%E7%BD%91%E7%BB%9C.pptx) by 谢婷
-* [CSS基本概念和实用技巧](https://ppt.baomitu.com/d/4266614a)【[视频](https://www.bilibili.com/video/BV1PD4y1977p)】by 王江波
+* [CSS基本概念和实用技巧](https://ppt.baomitu.com/d/4266614a)【[视频](https://www.bilibili.com/video/BV1PD4y1977p)】by [王江波](https://github.com/CongratulateWE)
 * [Cache](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/cache.pptx)【[视频](https://www.bilibili.com/video/BV1ZV411y7LQ/)】by 黄波
 * [WebRTC](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/webrtc.pptx)【[视频](https://www.bilibili.com/video/BV1yr4y1w7vy/)】by 罗辉
 * [JS基础学习](https://github.com/somewhereonlyweknow/learn-space/tree/master/js-learn)【[视频](https://www.bilibili.com/video/BV11K411G7m8/)】by 李奡
@@ -64,7 +64,7 @@
 * [高性能消息队列NSQ](/static_ppt/高性能消息队列NSQ.pptx)【[视频](https://www.bilibili.com/video/BV1Po4y1Z7oT/)】by 黄鹤
 * [CSS变量var](https://ppt.baomitu.com/d/d186bf01)【[视频](https://www.bilibili.com/video/BV1bi4y1c7eU/)】by 鄢敏
 * [HTTP中的编码和解码](https://ppt.baomitu.com/d/0d5c3531)【[视频](https://www.bilibili.com/video/BV1Bh411y7Hm/)】by 庞博文
-* [Vue 3.0新特性一览](https://ppt.baomitu.com/d/a4564092)【[视频](https://www.bilibili.com/video/BV155411P7hW/)】 by 王江波
+* [Vue 3.0新特性一览](https://ppt.baomitu.com/d/a4564092)【[视频](https://www.bilibili.com/video/BV155411P7hW/)】 by [王江波](https://github.com/CongratulateWE)
 * [FE Live](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/FE-Live.pptx)【[视频](https://www.bilibili.com/video/BV1jb4y1Q75j/)】 by James
 * [浅尝设计模式](https://ppt.baomitu.com/d/7fdfd819)【[视频](https://www.bilibili.com/video/BV19Z4y1c7Xk/)】 by 庞博文
 * [加密算法](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E5%8A%A0%E5%AF%86%E7%AE%97%E6%B3%95.pptx)【[视频](https://www.bilibili.com/video/BV1xK4y1P7Bs/)】by 侯世松
@@ -79,5 +79,4 @@
 * [FE-Auto-queen](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/fe-auto-queen.pptx) by 岳帅
 * [前端冷知识 Selection 和 Range](https://hex-ci.github.io/presentation/selection-range.html) by [Hex](https://github.com/hex-ci)
 * [CSS选择器](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/css-%E9%80%89%E6%8B%A9%E5%99%A8.pptx) by [庞博文]
-
-
+* [Service Workers，生命周期及其使用场景](https://github.com/ChangbaFE/presentation/tree/master/static_ppt/service-workers) by [王江波](https://github.com/CongratulateWE)

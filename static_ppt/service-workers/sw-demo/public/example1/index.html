@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Service Worker 的生命周期</title>
+</head>
+<body>
+  <p id="status"></p>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/example1/service-worker.js')
+        .then(function(registration) {
+          console.log('Service Worker 注册成功：', registration.scope);
+          registration.addEventListener('updatefound', function() {
+            console.log('Service Worker 更新发现：', registration.scope);
+            var installingWorker = registration.installing;
+            installingWorker.addEventListener('statechange', function() {
+              switch (installingWorker.state) {
+                case 'installed':
+                  if (navigator.serviceWorker.controller) {
+                    console.log('Service Worker 更新完成：', registration.scope);
+                  } else {
+                    console.log('Service Worker 已安装：', registration.scope);
+                  }
+                  break;
+                case 'redundant':
+                  console.log('Service Worker 已失效：', registration.scope);
+                  break;
+              }
+            });
+          });
+        })
+        .catch(function(error) {
+          console.log('Service Worker 注册失败：', error);
+        });
+    }
+  </script>
+</body>
+</html>

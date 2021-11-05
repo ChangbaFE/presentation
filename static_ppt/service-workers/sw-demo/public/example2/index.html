@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>安装Service Worker 并缓存资源</title>
+</head>
+
+<body>
+
+  <p>
+    hello
+    <span>World2</span>
+  </p>
+
+  <button onclick="sendRequest()">发送一个请求</button>
+
+  <script>
+    function sendRequest() {
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', 'styles/main.css');
+      xhr.send();
+    }
+  </script>
+
+  <script src="script/main.js"></script>
+  <script>
+    // 安装Service Worker
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw-cache.js').then(function (registration) {
+        console.log('Service Worker 注册成功：', registration.scope);
+      }).catch(function (err) {
+        console.log('Service Worker 注册失败：', err);
+      });
+    }
+  </script>
+</body>
+
+</html>
