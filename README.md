@@ -81,4 +81,5 @@
 * [CSS选择器](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/css-%E9%80%89%E6%8B%A9%E5%99%A8.pptx) by [庞博文]
 * [Service Workers，生命周期及其使用场景](https://github.com/ChangbaFE/presentation/tree/master/static_ppt/service-workers) by [王江波](https://github.com/CongratulateWE)
 * [微前端](https://github.com/xietingcindy/ppt/blob/main/%E5%BE%AE%E5%89%8D%E7%AB%AF-11.12.pptx) [【demo】](https://github.com/xietingcindy/ppt/tree/main/qiankun) by [谢婷](https://github.com/xietingcindy)
+* [有趣的二维码](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E6%9C%89%E8%B6%A3%E7%9A%84%E4%BA%8C%E7%BB%B4%E7%A0%81.pptx.zip) by [孔慧慧](https://github.com/KongHuihui-CAD)
 * [Web前端杂谈](https://github.com/greatjiang/web-talk) by [GrreatJiang](https://github.com/greatjiang)
