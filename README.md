@@ -1,5 +1,7 @@
 # 唱吧前端技术分享会
 
+~~删除线~~ 表示 PPT 文件由于声享网站关服，无法找回。
+
 ## 第一季
 
 * [~~HTML 和 CSS 基础~~](https://ppt.baomitu.com/d/b0a7b064) by [韩红淑](https://github.com/miss0401)
