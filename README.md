@@ -4,7 +4,7 @@
 
 ## 第一季
 
-* [~~HTML 和 CSS 基础~~](https://ppt.baomitu.com/d/b0a7b064) by [韩红淑](https://github.com/miss0401)
+* [HTML 和 CSS 基础](https://changbafe.github.io/presentation/archive_ppt/CSS基础%20-%20声享.html) by [韩红淑](https://github.com/miss0401)
 * [唱吧小程序之初体验](https://github.com/ChangbaFE/presentation/blob/master/miniprogram_ppt/index.html) by @[jasonli1990](https://github.com/JasonLi1990)
 * [node API demo](https://github.com/greatjiang/node-cors-demo) [vue全家桶实战开发](https://github.com/greatjiang/system-jiang) [gulp入门实战](https://github.com/greatjiang/gulp-demo) by [姜志伟](https://github.com/greatjiang)
 * [react入门分享](https://github.com/ChangbaFE/presentation/tree/master/static_ppt/react) by hgf
@@ -47,7 +47,7 @@
 * [浏览器相关 xmind思维导图](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9B%B8%E5%85%B3.xmind)，[相关知识md](https://github.com/somewhereonlyweknow/learn-space/blob/master/load-test/README.md) by 李奡
 * [~~Event Loop ppt~~](https://ppt.baomitu.com/d/94032bb2) ,[eventloop 测试代码](https://github.com/somewhereonlyweknow/learn-space/tree/master/event-loop) ,[promise 代码](https://github.com/somewhereonlyweknow/learn-space/tree/master/promise) ,[async/await 代码](https://github.com/somewhereonlyweknow/learn-space/tree/master/async-await) by 李奡
 * [博弈论及其经典案例](https://github.com/air-3/1-byl-cb) by 侯世松
-* [~~一个前端的基础正则修养~~](https://ppt.baomitu.com/d/0f4a196d#/) - [老姚的正则表达式迷你书(点击下载)](https://github.com/qdlaoyao/js-regex-mini-book)[(在线观看)](https://github.com/sansiro-me/daily-notes/blob/master/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/JavaScript%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E8%BF%B7%E4%BD%A0%E4%B9%A6---%E8%80%81%E5%A7%9A.pdf) by [sansiro](https://github.com/sansiro-me) 
+* [~~一个前端的基础正则修养~~](https://ppt.baomitu.com/d/0f4a196d#/) - [老姚的正则表达式迷你书(点击下载)](https://github.com/qdlaoyao/js-regex-mini-book)[(在线观看)](https://github.com/sansiro-me/daily-notes/blob/master/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/JavaScript%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E8%BF%B7%E4%BD%A0%E4%B9%A6---%E8%80%81%E5%A7%9A.pdf) by [sansiro](https://github.com/sansiro-me)
 * [ThreeJS 3D动画](https://github.com/greatjiang/threejs_study) by GreatJiang
 
 ## 第三季
@@ -87,4 +87,3 @@
 * [Web前端杂谈](https://github.com/greatjiang/web-talk) by [GreatJiang](https://github.com/greatjiang)
 * [谈谈EventLoop二三事](https://github.com/ChangbaFE/presentation/tree/master/static_ppt/谈谈EventLoop的二三事.key) by 郑彦卿
 * [缓存与数据库双写一致性](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E7%BC%93%E5%AD%98%E4%B8%8E%E6%95%B0%E6%8D%AE%E5%BA%93%E5%8F%8C%E5%86%99%E4%B8%80%E8%87%B4%E6%80%A7.pptx) by [王俊鹏](https://github.com/malayanhuigang)
-
