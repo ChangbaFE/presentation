@@ -4,7 +4,7 @@
 
 ## 第一季
 
-* [HTML 和 CSS 基础](https://changbafe.github.io/presentation/archive_ppt/CSS基础%20-%20声享.html) by [韩红淑](https://github.com/miss0401)
+* [HTML 和 CSS 基础](https://changbafe.github.io/presentation/archive_ppt/CSS%E5%9F%BA%E7%A1%80%20-%20%E5%A3%B0%E4%BA%AB.html) by [韩红淑](https://github.com/miss0401)
 * [唱吧小程序之初体验](https://github.com/ChangbaFE/presentation/blob/master/miniprogram_ppt/index.html) by @[jasonli1990](https://github.com/JasonLi1990)
 * [node API demo](https://github.com/greatjiang/node-cors-demo) [vue全家桶实战开发](https://github.com/greatjiang/system-jiang) [gulp入门实战](https://github.com/greatjiang/gulp-demo) by [姜志伟](https://github.com/greatjiang)
 * [react入门分享](https://github.com/ChangbaFE/presentation/tree/master/static_ppt/react) by hgf
