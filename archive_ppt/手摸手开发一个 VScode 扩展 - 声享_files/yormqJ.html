@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://headway-widget.net/widgets/yormqJ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <script>
+//<![CDATA[
+!function(e){var t={};function s(n){if(t[n])return t[n].exports;var r=t[n]={i:n,l:!1,exports:{}};return e[n].call(r.exports,r,r.exports,s),r.l=!0,r.exports}s.m=e,s.c=t,s.d=function(e,t,n){s.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:n})},s.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},s.t=function(e,t){if(1&t&&(e=s(e)),8&t)return e;if(4&t&&"object"===typeof e&&e&&e.__esModule)return e;var n=Object.create(null);if(s.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var r in e)s.d(n,r,function(t){return e[t]}.bind(null,r));return n},s.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return s.d(t,"a",t),t},s.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},s.p="//assets0.headwayapp.co/assets/packs/",s(s.s=943)}({943:function(e,t,s){"use strict";s.r(t);s(944),s(945)},944:function(e,t,s){},945:function(e,t){var s,n=function(e,t){return function(){return e.apply(t,arguments)}},r=[].indexOf||function(e){for(var t=0,s=this.length;t<s;t++)if(t in this&&this[t]===e)return t;return-1},i={}.hasOwnProperty;s=function(){function e(){this.log=n(this.log,this)}return e.prototype.CODENAME="CaptainAmerica",e.prototype.postMessage=function(){var e,t,s;return t=(e=Array.prototype.slice.call(arguments)).shift(),s=e,window.parent.postMessage([this.CODENAME,t,s],"*")},e.prototype.setStyles=function(e,t){var s,n;for(s in n=[],t)n.push(e.style[s]=t[s]);return n},e.prototype.log=function(){if(this.options.debug)return console.log("[Headway Debug]",arguments)},e.prototype.diff=function(e,t){return e.filter((function(e){return r.call(t,e)<0}))},e}(),window.App=function(e){function t(e){this.applyTranslations=n(this.applyTranslations,this),this.replaceBaseUrl=n(this.replaceBaseUrl,this),this.setDetailsHeight=n(this.setDetailsHeight,this),this.setListHeight=n(this.setListHeight,this),this.serverStore=n(this.serverStore,this),this.trackEvent=n(this.trackEvent,this),this.markSeen=n(this.markSeen,this),this.markRead=n(this.markRead,this),this.markAllSeen=n(this.markAllSeen,this),this.markItems=n(this.markItems,this),this.setState=n(this.setState,this),this.initState=n(this.initState,this),this.badgeCount=n(this.badgeCount,this),this.reload=n(this.reload,this),this.refresh=n(this.refresh,this),this.getCurrentIds=n(this.getCurrentIds,this),this.migrateLocalStorage=n(this.migrateLocalStorage,this),this.onceReady=n(this.onceReady,this),this.showDetails=n(this.showDetails,this),this.showIndex=n(this.showIndex,this),this.wheneverClosed=n(this.wheneverClosed,this),this.setBadge=n(this.setBadge,this),this.wheneverOpened=n(this.wheneverOpened,this),this.readMessage=n(this.readMessage,this),this.makeInaccessible=n(this.makeInaccessible,this),this.makeAccessible=n(this.makeAccessible,this),this.removeOutlineOnClick=n(this.removeOutlineOnClick,this),this.setupDefaults=n(this.setupDefaults,this),this.getCategories=n(this.getCategories,this),this.getChangelogs=n(this.getChangelogs,this),t.__super__.constructor.call(this),this.options=e,this.elements={logItems:document.querySelectorAll(".logItem"),backLinks:document.querySelectorAll(".back"),indexCont:document.getElementById("index"),logDetailsItem:document.querySelectorAll(".logDetailsItem"),innercont:document.querySelector(".innercont"),title:document.querySelector("h3"),readMore:document.querySelectorAll(".link a"),seeMore:document.querySelector(".footer a"),footer:document.querySelector(".footer")},this.current={data:null},this.setupDefaults(),this.log("App.constructor",this.options,this.elements,this.current)}return function(e,t){for(var s in t)i.call(t,s)&&(e[s]=t[s]);function n(){this.constructor=e}n.prototype=t.prototype,e.prototype=new n,e.__super__=t.prototype}(t,e),t.prototype.getChangelogs=function(){var e,t,s,n,r,i,o,a,l,h,u;if(this.changelogs)return this.changelogs;for(this.changelogs=[],s=r=0,i=(l=this.elements.logItems).length;r<i;s=++r)u=l[s],n=parseInt(u.dataset.id),t=(a=(o=this.elements.logDetailsItem[s]).querySelector(".content noscript")).textContent||a.innerHTML,e=[],this.getCategories(n).forEach((function(t){return e.push(t.name)})),this.changelogs.push({id:n,title:null!=(h=u.querySelector(".title"))?h.innerText:void 0,categories:e,content:{short:u.querySelector(".short").innerHTML,long:t,more:!!o.querySelector("a.more")},dateTime:new Date(u.dataset.date),url:o.querySelector(".link a").href});return this.changelogs},t.prototype.getCategories=function(e){return window.categories[e]},t.prototype.setupDefaults=function(){var e,t,s,n,r,i,o,a,l,h;for(a=this.elements.logItems,h=this,e=function(e,t){var s,n,r,i,o,a,l;return r=parseInt(e.dataset.id),s=h.getCategories(r),n={position:t+1,id:r,title:(null!=(o=e.querySelector(".title"))?o.innerText.replace(/\.$/,""):void 0)||"",category:null!=(a=s[0])&&null!=(l=a.name)?l.toLowerCase():void 0,categories:s},null!=(i=h.elements.logDetailsItem[t].querySelector(".link a"))&&i.addEventListener("click",(function(){return h.postMessage("setAction",{event:"onReadMore",data:n})})),h.removeOutlineOnClick(e),e.addEventListener("click",(function(s){return s.stopPropagation(),s.preventDefault(),h.showDetails(t),h.trackEvent("/r/read/"+h.accountId+"/"+e.dataset.id),h.markRead(e.dataset.id),h.postMessage("setAction",{event:"onShowDetails",data:n})}))},t=s=0,r=a.length;s<r;t=++s)e(o=a[t],t);for(n=0,i=(l=this.elements.backLinks).length;n<i;n++)o=l[n],this.removeOutlineOnClick(o),o.addEventListener("click",function(e){return function(t){return t.stopPropagation(),t.preventDefault(),e.showIndex()}}(this));if(this.elements.logItems.length>0)return window.addEventListener("message",function(e){return function(t){var s,n,r,i;if(r=(s=t.data)[0],i=s[1],n=s[2],r===e.CODENAME)return e.readMessage(i,n)}}(this))},t.prototype.removeOutlineOnClick=function(e){return e.addEventListener("click",(function(){return e.classList.add("noOutline")})),e.addEventListener("blur",(function(){return e.classList.remove("noOutline")}))},t.prototype.makeAccessible=function(e){var t,s,n,r,i;for(e.removeAttribute("aria-hidden"),i=[],t=0,s=(r=e.querySelectorAll("a")).length;t<s;t++)n=r[t],i.push(n.removeAttribute("tabindex"));return i},t.prototype.makeInaccessible=function(e){var t,s,n,r,i;for(e.setAttribute("aria-hidden","true"),i=[],t=0,s=(r=e.querySelectorAll("a")).length;t<s;t++)n=r[t],i.push(n.setAttribute("tabindex","-1"));return i},t.prototype.readMessage=function(e,t){switch(e){case"opened":return this.wheneverOpened();case"closed":return this.wheneverClosed();case"ready":return this.onceReady(t[0]);case"markSeen":return this.markSeen(t[0]);case"markAllSeen":return this.markAllSeen();case"markRead":return this.markRead(t[0]);case"reload":return this.reload()}},t.prototype.wheneverOpened=function(){if(this.showIndex(),this.visible=!0,!this.options.embed)return this.markAllSeen(),this.trackEvent("/r/open/"+this.accountId)},t.prototype.setBadge=function(){return this.postMessage("setBadge",this.badgeCount())},t.prototype.wheneverClosed=function(){return this.visible=!1,setTimeout(this.showIndex,300)},t.prototype.showIndex=function(){var e,t,s,n,r;for(this.elements.innercont.classList.remove("detailsOpen"),this.setListHeight(),this.makeAccessible(this.elements.indexCont),r=[],t=0,s=(n=this.elements.logDetailsItem).length;t<s;t++)e=n[t],r.push(this.makeInaccessible(e));return r},t.prototype.showDetails=function(e){var t,s,n,r;for(this.elements.innercont.classList.add("detailsOpen"),this.setDetailsHeight(e),this.makeInaccessible(this.elements.indexCont),s=0,n=(r=this.elements.logDetailsItem).length;s<n;s++)t=r[s],this.makeInaccessible(t);return this.makeAccessible(this.elements.logDetailsItem[e])},t.prototype.onceReady=function(e){if(e.newWidgetPositioning?(document.body.classList.add(e.position.x||"right"),document.body.classList.add(e.position.y||"bottom")):(document.body.classList.add("right"),document.body.classList.add("bottom")),this.options.embed=e.options.embed,this.options.debug=e.options.debug,this.options.baseUrl=e.options.baseUrl,this.token=e.options.token,this.current.data=e,this.localStorage=e.localStorage,this.accountId=e.options.account,this.applyTranslations(document.getElementById("index")),this.migrateLocalStorage())return this.initState(),this.markItems("read"),this.markItems("seen"),setTimeout(this.refresh,6e4),null!=this.elements.seeMore&&this.options.baseUrl&&(this.elements.seeMore.href=this.options.baseUrl),this.setListHeight(),this.postMessage("widgetReady",{options:this.options,changelogs:this.getChangelogs(),state:this.state,badgeCount:this.badgeCount()}),this.log("App.setupDefaults#ready",e)},t.prototype.migrateLocalStorage=function(){return"server"!==this.options.activeStorage||null==this.token||!this.localStorage.seen.length&&!this.localStorage.read.length||(this.serverStore("/r/seen/"+this.accountId,"token="+this.token+"&seen="+this.localStorage.seen.join(","),(e=this,function(){return e.serverStore("/r/read/"+e.accountId,"token="+e.token+"&read="+e.localStorage.read.join(","),(function(){return e.postMessage("migrateLocalStorage")}))})),!1);var e},t.prototype.getCurrentIds=function(){var e,t,s,n,r;for(r=[],s=0,n=(t=Array.prototype.slice.call(this.elements.logItems)).length;s<n;s++)e=t[s],r.push(parseInt(e.dataset.id));return r},t.prototype.refresh=function(){if(this.options.autorefresh)return!0===this.visible?setTimeout(this.refresh,200):this.reload()},t.prototype.reload=function(){return document.location.reload()},t.prototype.badgeCount=function(){var e,t,s,n,r,i,o,a;if("server"===this.options.activeStorage&&null==this.token)return 0;for(t=this.options.expireAfter||Infinity,e=0,a=(new Date).getTime(),r=0,i=(o=document.querySelectorAll(".logItem")).length;r<i;r++)"true"!==(s=o[r]).dataset.seen&&(n=new Date(s.dataset.date).getTime(),Math.floor((a-n)/864e5)>=t||(e+=1));return e},t.prototype.initState=function(){return this.state="server"===this.options.activeStorage?this.options.state||{read:[],seen:[]}:this.localStorage},t.prototype.setState=function(e,t){return this.state[e]=t,this.postMessage("setState",this.state),this.markItems(e),this.setBadge()},t.prototype.markItems=function(e){var t,s,n,r,i,o;if((s=this.state[e]).length>0){for(o=[],r=0,i=s.length;r<i;r++)t=s[r],(n=document.querySelector("*[data-id='"+t+"']"))?(n.dataset[e]=!0,o.push(n.classList.add(e))):o.push(void 0);return o}},t.prototype.markAllSeen=function(){var e,t;if(t=function(){var t,s,n,r;for(r=[],t=0,s=(n=this.getChangelogs().reverse()).length;t<s;t++)e=n[t],r.push(e.id);return r}.call(this),this.setState("seen",this.diff(this.state.seen,t).concat(t)),"server"===this.options.activeStorage)return this.serverStore("/r/seen/"+this.accountId,"token="+this.token+"&seen="+t.join(","))},t.prototype.markRead=function(e){if(this.setState("read",this.diff(this.state.read,[e]).concat([e])),"server"===this.options.activeStorage)return this.serverStore("/r/read/"+this.accountId,"token="+this.token+"&read="+e)},t.prototype.markSeen=function(e){if(this.setState("seen",this.diff(this.state.seen,[e]).concat([e])),"server"===this.options.activeStorage)return this.serverStore("/r/seen/"+this.accountId,"token="+this.token+"&seen="+e)},t.prototype.trackEvent=function(e){if(this.options.track)return this.xhr(e)},t.prototype.serverStore=function(e,t,s){if(null==t&&(t=""),this.token)return this.xhr(e,t,s)},t.prototype.xhr=function(e,t,s){var n;return null==t&&(t=""),(n=new XMLHttpRequest).open("POST",e),n.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),n.onreadystatechange=function(){if(4===this.readyState&&200===this.status&&null!=s)return s()},n.send(t)},t.prototype.setListHeight=function(){var e,t,s,n;return n=(t=document.getElementById("index")).querySelector(".topBar").offsetHeight,s=t.querySelector(".logList").scrollHeight,e=t.querySelector(".footer").offsetHeight,this.postMessage("setHeight",{height:n+s+e})},t.prototype.setDetailsHeight=function(e){var t,s,n,r,i,o,a,l,h,u,c,d,p,g,f,m,y,v;for(a=0,u=(p=this.elements.logDetailsItem).length;a<u;a++)o=p[a],this.setStyles(o,{display:"none"});if(n=this.elements.logDetailsItem[e].querySelector("noscript")){for(t=(t=n.innerHTML).replace(/&gt;/g,">").replace(/&lt;/g,"<").replace(/&amp;/g,"&"),(y=n.parentNode).innerHTML=t,r=y.parentNode.querySelector(".logDetailsItem .link a").href,l=0,c=(g=y.querySelectorAll("img")).length;l<c;l++)(i=g[l]).width>300&&i.classList.add("bigImage");for(h=0,d=(f=y.querySelectorAll(".videoThumbWidth, .bigImage")).length;h<d;h++)f[h].addEventListener("click",(function(){return window.open(r)}));this.addTargetBlank(this.elements.logDetailsItem[e]),this.replaceBaseUrl(this.elements.logDetailsItem[e]),this.applyTranslations(y)}return this.setStyles(this.elements.logDetailsItem[e],{display:""}),v=this.elements.logDetailsItem[e].querySelector(".topBar").offsetHeight,m=this.elements.logDetailsItem[e].querySelector(".slideBody").scrollHeight,s=this.elements.logDetailsItem[e].querySelector(".bottomBar").offsetHeight,this.postMessage("setHeight",{height:v+m+s})},t.prototype.replaceBaseUrl=function(e){var t,s;if(s=e.querySelector(".link a"),this.options.baseUrl&&null!=s)return t=s.dataset.path,s.href=this.options.baseUrl+t},t.prototype.addTargetBlank=function(e){var t,s,n,r,i;for(i=[],t=0,s=(r=e.querySelectorAll(".slideBody a")).length;t<s;t++)(n=r[t]).target="_blank",i.push(n.rel="noopener noreferrer");return i},t.prototype.applyTranslations=function(e){var t,s,n,r,i,o,a,l;if((null!=(i=this.current.data)?i.options.translations:void 0)&&(null!=(l=this.current.data.options.translations).title&&(this.elements.title.textContent=l.title),null!=l.footer&&((r=document.createElement("a")).target="_blank",r.href=this.elements.seeMore.href,r.innerText=l.footer,this.elements.footer.innerHTML="",this.elements.footer.appendChild(r)),null!=l.labels&&e.querySelectorAll(".category").forEach((function(e){var t;if(t=l.labels[e.innerText.toLowerCase()])return e.innerText=t})),null!=l.readMore)){for(a=[],s=0,n=(o=this.elements.readMore).length;s<n;s++)t=o[s],a.push(t.textContent=l.readMore);return a}},t}(s)}});
+
+//]]>
+</script>
+    <style>.videoThumbWidth:after{content:"";display:block;position:absolute;top:0;left:0;width:100%;height:100%;background-size:20%;background-position:50%;background-repeat:no-repeat}.videoThumbWidth.youtube:after{background-image:url(//assets0.headwayapp.co/assets/packs/media/images/editor/video/youtube-logo-252d9776ac807a54d44869b11fa55dac.png)}.videoThumbWidth.wistia:after{background-image:url(//assets0.headwayapp.co/assets/packs/media/images/editor/video/wistia-logo-7ab00495376b0066faec307f6bba4421.png)}.videoThumbWidth.vimeo:after{background-image:url(//assets0.headwayapp.co/assets/packs/media/images/editor/video/vimeo-logo-d73bdd39d4447bfdac60cbebc9fb2493.png)}.videoThumbWidth.loom:after{background-image:url(//assets0.headwayapp.co/assets/packs/media/images/editor/video/loom-logo-8e817a3feb67b2d1d7bbb2a3b7f93b6a.svg)}.videoContWidth,.videoThumbWidth{cursor:pointer;position:relative;display:inline-block;margin:0;line-height:0}.videoContWidth .videoContHeight,.videoThumbWidth .videoThumbHeight{width:100%;display:inline-block}.videoContWidth .videoContHeight .video,.videoContWidth .videoContHeight .videoThumb,.videoThumbWidth .videoThumbHeight .video,.videoThumbWidth .videoThumbHeight .videoThumb{position:absolute;top:0;left:0;width:100%;height:100%}.videoContWidth .videoContHeight .videoThumb,.videoThumbWidth .videoThumbHeight .videoThumb{background-position:50%;background-repeat:no-repeat;background-size:cover}*{box-sizing:border-box}*,body,button,input,select,textarea{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;-moz-osx-font-smoothing:grayscale}body,html{height:100vh}html{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;text-size-adjust:100%}body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-size:13px;overflow:hidden}body,h2,h3,p{padding:0;margin:0}p{font-size:13px}a.noOutline{outline:none!important}.outercont{color:#222c36}.outercont .cont{overflow:hidden;position:relative;height:100vh;width:100vw}.outercont .innercont{transform:translate(0);position:relative;overflow:hidden;will-change:left;transition:left .3s;width:200vw;height:100%;left:0}.outercont .innercont .logList{overflow-y:auto}.outercont .innercont .slideBody{overflow-y:hidden}.outercont .innercont.detailsOpen{left:-100%}.outercont .innercont.detailsOpen .logList{overflow-y:hidden}.outercont .innercont.detailsOpen .slideBody{overflow-y:auto}.outercont .innercont #details,.outercont .innercont #index{width:100vw;position:absolute}.outercont .innercont #index{left:0}.outercont .innercont #details{left:100vw}.outercont .innercont #index{height:100vh;display:flex;flex-direction:column}.outercont .innercont #index .logList{overflow-x:hidden;-ms-scroll-chaining:none;overscroll-behavior:contain}.outercont .innercont #index .category{font-size:11px;line-height:18px;display:inline-block;padding:0 11px;font-weight:400;border-radius:20px;margin-right:3px}.outercont .innercont #index .title{margin:0 3px}.outercont .innercont .logDetailsItem{text-overflow:ellipsis}.outercont .innercont .logDetailsItem .slideBody{padding:16px 16px 0}.outercont .innercont .logDetailsItem .slideBody:after{content:"";display:block;padding-bottom:20px}.outercont .innercont .logDetailsItem .slideBody .content{clear:both}.outercont .innercont .logDetailsItem .slideBody p{margin-bottom:10px;line-height:19px;color:#222c36;clear:both}.outercont .innercont .logDetailsItem .slideBody p:last-child{margin-bottom:0}.outercont .innercont .logDetailsItem .slideBody a{color:#3778ff}.outercont .innercont .logDetailsItem{height:100vh;display:flex;flex-direction:column}.outercont .innercont .logDetailsItem .slideBody{overflow-x:hidden;-ms-scroll-chaining:none;overscroll-behavior:contain}.outercont .innercont .logItem{display:block;clear:both;line-height:19px;padding:7px 16px 7px 12px;color:#666;text-decoration:none;border-left:3px solid #3778ff}.outercont .innercont .logItem.read{border-left:0;padding:7px 15px}.outercont .innercont .logItem:first-child{padding-top:14px}.outercont .innercont .logItem:last-child{padding-bottom:14px}.outercont .innercont .logItem:hover strong{text-decoration:underline}.outercont .innercont strong{color:#222c36;font-weight:600}.outercont .innercont .back{position:absolute;display:block;height:46px;opacity:.25;z-index:2}.outercont .innercont .back:after,.outercont .innercont .back:before{content:"";height:12px;width:1px;display:block;background:#222c36;position:absolute}.outercont .innercont .back:before{top:14px}.outercont .innercont .back:after{bottom:12px}.outercont .innercont h3.title{text-align:center;font-weight:600;font-size:14px;margin:0}.outercont .innercont .bottomBar,.outercont .innercont .topBar{margin:0 10px;position:relative}.outercont .innercont .topBar{border-bottom:1px solid #f1f1f1;padding:15px 23px}.outercont .innercont .topBar .back{top:2px;padding:5px 15px 0}.outercont .innercont .bottomBar{border-top:1px solid #f1f1f1;padding:17px 23px}.outercont .innercont .bottomBar .back{bottom:-5px;padding:5px 15px 0}.outercont .innercont .link{margin:15px 0 5px}.outercont .innercont .link a{color:#3778ff;font-weight:700;text-decoration:none;display:none}.outercont .innercont .link a.more{display:inline-block}.outercont .innercont .footer{background:#fcfcfc;color:#a8a8a8;font-size:12px;text-align:center;border-top:1px solid #f1f1f1;height:35px;line-height:35px;border-radius:0 0 4px 4px}.outercont .innercont .footer a{color:#a8a8a8}body.top #details .topBar .back{display:none}body.top #details .bottomBar .back{display:block}body.bottom #details .bottomBar,body.center #details .bottomBar{display:none}body.left .back{right:0}body.left .back:before{transform:rotate(-45deg)}body.left .back:after{transform:rotate(45deg)}body.right .back{left:0}body.right .back:before{transform:rotate(45deg)}body.right .back:after{transform:rotate(-45deg)}.ltr{direction:ltr}.ltr .category{margin-right:5px;float:left}.rtl{direction:rtl}.rtl .category{margin-left:5px;float:right}.headwayVideo{position:relative;display:inline-block}.headwayVideo:before{content:"";width:100%;height:100%;background:pink;opacity:.5;position:absolute;left:0;top:0;z-index:10000}.content{line-height:1.55rem;min-height:40px;clear:both}.content .category{display:inline-block;padding:1px 11px;font-size:.9em;line-height:22px;font-weight:400;margin-bottom:0;border-radius:20px}.content .afterCategories,.content .beforeCategories{display:block;margin-bottom:13px;height:0}.content audio{outline:none!important;margin-bottom:10px}.content img{-o-object-fit:scale-down;object-fit:scale-down;height:auto}.content hr{border-width:medium 0 0;border-top:1px solid #e5e5e5;margin:20px 0 25px}.content p,.content pre{margin-bottom:13px;position:relative}.content p:last-child,.content pre:last-child{margin-bottom:0}.content ol,.content ul{margin-left:22px;padding:10px 0 5px}.content ol li,.content ul li{list-style:disc;padding-left:6px;margin-bottom:5px}.content ol li{list-style:decimal}.content code,.content pre{font-family:Monaco,Menlo,Courier,Courier New,Andale Mono,Bitstream Vera Sans Mono,Lucida Console,Consolas,Droid Sans Mono;font-size:12px;background:#f7f7f7;color:#4d5863;padding:4px;border-radius:2px}.content pre{padding:8px 12px}.content pre code{padding:0}.content blockquote{color:#47525d;padding-left:10px;border-left:4px solid #ccc;margin:15px 40px 15px 0}.content b,.content strong{font-weight:500}.content h1,.content h2,.content h3,.content h4,.content h5,.content h6{font-weight:500;margin:0 0 5px;padding:0}.content h1{font-size:1.3rem}.content h2{font-size:1.15rem}.content h3{font-weight:420;font-size:1rem}.content table{width:100%;font-size:13px;margin-bottom:20px}.content table thead th{padding:5px 0;font-size:11px;letter-spacing:2px;font-weight:400;text-transform:uppercase;color:rgba(0,0,0,.3)}.content table tbody td{padding:5px 5px 5px 0;border-top:1px solid #f3f3f3}.bigImage,.videoThumbWidth{cursor:pointer}.bigImage:hover,.videoThumbWidth:hover{opacity:.9}</style>
+    <script>
+//<![CDATA[
+
+      var HW_config =  {"badgeDelay":3,"softHide":true,"eyecatcher":true,"expireAfter":null,"token":null,"activeStorage":"local","autorefresh":false,"track":null}
+
+      document.addEventListener("DOMContentLoaded", function(){
+        new App(HW_config);
+      }, false);
+
+//]]>
+</script>
+
+    <style>
+  .category_0 {
+    display: none;
+  }
+
+    .category_16831 {
+      background-color: #ff4772;
+      color: #fff;
+    }
+
+    #editor-body .head.head_category_16831 .background {
+      background-color: #ff4772;
+    }
+    .category_16830 {
+      background-color: #b26cee;
+      color: #fff;
+    }
+
+    #editor-body .head.head_category_16830 .background {
+      background-color: #b26cee;
+    }
+    .category_16829 {
+      background-color: #3778ff;
+      color: #fff;
+    }
+
+    #editor-body .head.head_category_16829 .background {
+      background-color: #3778ff;
+    }
+</style>
+    <script>
+//<![CDATA[
+
+      var categories = {"131933":[{"name":"Improvement","color":"#b26cee","id":"16830"}],"123510":[{"name":"New","color":"#3778ff","id":"16829"}],"110372":[{"name":"New","color":"#3778ff","id":"16829"}],"105479":[{"name":"New","color":"#3778ff","id":"16829"}],"103831":[{"name":"Improvement","color":"#b26cee","id":"16830"}],"103344":[{"name":"New","color":"#3778ff","id":"16829"}]}
+
+//]]>
+</script>  </head>
+  <body class="ltr right bottom">
+    <div class="outercont">
+      <div class="cont">
+        <div class="innercont">
+          <div id="index">
+  <div class="topBar">
+    <h3 class="title">Latest changes</h3>
+  </div>
+  <div class="logList">
+    <a href="https://headway-widget.net/widgets/yormqJ#" class="logItem seen" data-id="131933" data-date="2019-12-25T09:54:21Z" data-seen="true">
+    <span class="category category_16830">Improvement</span>
+    <strong class="title">修改背景缩放逻辑</strong>
+  <span class="short">
+各位，之前声享的背景图有放大缩小的特性，导致很多同学发现编辑的时候元素和背景对齐了，但是发布出来就有问题了。我们现在将这个特性去除了，保证背景和元素在画布上的相对位置不变，确保大家编辑的时候是...</span>
+</a> <!-- /logItem -->
+<a href="https://headway-widget.net/widgets/yormqJ#" class="logItem seen" data-id="123510" data-date="2019-10-21T02:27:48Z" data-seen="true">
+    <span class="category category_16829">New</span>
+    <strong class="title">代码块新增行号功能</strong>
+  <span class="short">
+代码块新增行号开关，可以设置代码块是否显示行号。欢迎大家使用～
+</span>
+</a> <!-- /logItem -->
+<a href="https://headway-widget.net/widgets/yormqJ#" class="logItem seen" data-id="110372" data-date="2019-07-25T12:52:56Z" data-seen="true">
+    <span class="category category_16829">New</span>
+    <strong class="title">代码块新增风格设置</strong>
+  <span class="short">
+代码块新增风格设置，可以设置代码块展示成 Mac 窗口的样式。大家赶快试用下吧~
+</span>
+</a> <!-- /logItem -->
+<a href="https://headway-widget.net/widgets/yormqJ#" class="logItem seen" data-id="105479" data-date="2019-06-18T05:46:37Z" data-seen="true">
+    <span class="category category_16829">New</span>
+    <strong class="title">增加绑定手机号逻辑</strong>
+  <span class="short">
+各位，我们刚刚上线了绑定手机号逻辑，如果有用户未绑定手机号的话，进入个人主页会跳转到个人资料页提示手机号。
+
+</span>
+</a> <!-- /logItem -->
+<a href="https://headway-widget.net/widgets/yormqJ#" class="logItem seen" data-id="103831" data-date="2019-06-04T07:11:13Z" data-seen="true">
+    <span class="category category_16830">Improvement</span>
+    <strong class="title">更新邮箱校验逻辑</strong>
+  <span class="short">
+各位，我们刚刚上线了个邮箱校验的逻辑，如果有用户资料没有填邮箱的话进入个人主页会跳转到个人资料页提示补全邮箱。
+</span>
+</a> <!-- /logItem -->
+<a href="https://headway-widget.net/widgets/yormqJ#" class="logItem seen" data-id="103344" data-date="2019-05-30T10:25:02Z" data-seen="true">
+    <span class="category category_16829">New</span>
+    <strong class="title">图表组件</strong>
+  <span class="short">
+声享新增了一个新的图表组件：在组件中编辑你的数据表，选择图表类型，添加数据指定表中的来源数据列即可生成图表～
+快来试一试吧！
+</span>
+</a> <!-- /logItem -->
+
+  </div> <!-- /logList -->
+  <div class="footer">
+    <a target="_blank" rel="noopener noreferrer" href="https://headwayapp.co/baomitu-changelog?utm_medium=widget">BAOMITU changelog</a>
+      powered by <a target="_blank" href="https://headwayapp.co/?utm_medium=widget&amp;utm_source=baomitu" rel="noopener noreferrer">Headway</a>
+  </div>
+</div> <!-- /logListCont -->
+
+<div id="details">
+  <div class="logDetailsItem">
+  <div class="topBar">
+    <a href="https://headway-widget.net/widgets/yormqJ#back" class="back"></a>
+    <h3 class="title">修改背景缩放逻辑</h3>
+  </div>
+  <div class="slideBody">
+    <div class="content"><noscript><p class="beforeCategories">&nbsp;</p><h3 class='category category_16830'>Improvement</h3>&nbsp;<p class="afterCategories">&nbsp;</p>
+<p>各位，之前声享的背景图有放大缩小的特性，导致很多同学发现编辑的时候元素和背景对齐了，但是发布出来就有问题了。我们现在将这个特性去除了，保证背景和元素在画布上的相对位置不变，确保大家编辑的时候是什么样发布出来也是一样的。欢迎各位同学使用！最后声享祝大家圣诞快乐鸭~</p>
+<p><img
+  src="https://cloud.headwayapp.co/changelogs_images/images/small/000/040/159-939c71aee1df5eb5f96da5b14566d77ce48a6be3.png"
+  alt="4581577267613_.pic_hd.jpg"
+  width=298.65
+  height=307.45
+/>
+</p></noscript></div>
+    <p class="link"><a target="_blank" href="https://headwayapp.co/baomitu-changelog/%E4%BF%AE%E6%94%B9%E8%83%8C%E6%99%AF%E7%BC%A9%E6%94%BE%E9%80%BB%E8%BE%91-131933" data-path="/%E4%BF%AE%E6%94%B9%E8%83%8C%E6%99%AF%E7%BC%A9%E6%94%BE%E9%80%BB%E8%BE%91-131933" rel="noopener noreferrer" class="">Read the whole post</a></p>
+  </div>
+  <div class="bottomBar">
+    <a href="https://headway-widget.net/widgets/yormqJ#back" class="back"></a>
+  </div>
+</div>
+<div class="logDetailsItem">
+  <div class="topBar">
+    <a href="https://headway-widget.net/widgets/yormqJ#back" class="back"></a>
+    <h3 class="title">代码块新增行号功能</h3>
+  </div>
+  <div class="slideBody">
+    <div class="content"><noscript><p class="beforeCategories">&nbsp;</p><h3 class='category category_16829'>New</h3>&nbsp;<p class="afterCategories">&nbsp;</p>
+<p>代码块新增行号开关，可以设置代码块是否显示行号。欢迎大家使用～<img
+  src="https://cloud.headwayapp.co/changelogs_images/images/small/000/037/003-71b35d9c816175fbb062f61475d212d93181712b.png"
+  alt="2461571625196_.pic_hd.jpg"
+  width=308.0
+  height=138.6
+/>
+</p></noscript></div>
+    <p class="link"><a target="_blank" href="https://headwayapp.co/baomitu-changelog/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%96%B0%E5%A2%9E%E8%A1%8C%E5%8F%B7%E5%8A%9F%E8%83%BD-123510" data-path="/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%96%B0%E5%A2%9E%E8%A1%8C%E5%8F%B7%E5%8A%9F%E8%83%BD-123510" rel="noopener noreferrer" class="">Read the whole post</a></p>
+  </div>
+  <div class="bottomBar">
+    <a href="https://headway-widget.net/widgets/yormqJ#back" class="back"></a>
+  </div>
+</div>
+<div class="logDetailsItem">
+  <div class="topBar">
+    <a href="https://headway-widget.net/widgets/yormqJ#back" class="back"></a>
+    <h3 class="title">代码块新增风格设置</h3>
+  </div>
+  <div class="slideBody">
+    <div class="content"><noscript><p class="beforeCategories">&nbsp;</p><h3 class='category category_16829'>New</h3>&nbsp;<p class="afterCategories">&nbsp;</p>
+<p>代码块新增风格设置，可以设置代码块展示成 Mac 窗口的样式。大家赶快试用下吧~</p>
+<p><img src="https://p3.ssl.qhimgs4.com/t019f10adf87a5c74a4.png" alt=""></p></noscript></div>
+    <p class="link"><a target="_blank" href="https://headwayapp.co/baomitu-changelog/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%96%B0%E5%A2%9E%E9%A3%8E%E6%A0%BC%E8%AE%BE%E7%BD%AE-110372" data-path="/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%96%B0%E5%A2%9E%E9%A3%8E%E6%A0%BC%E8%AE%BE%E7%BD%AE-110372" rel="noopener noreferrer" class="">Read the whole post</a></p>
+  </div>
+  <div class="bottomBar">
+    <a href="https://headway-widget.net/widgets/yormqJ#back" class="back"></a>
+  </div>
+</div>
+<div class="logDetailsItem">
+  <div class="topBar">
+    <a href="https://headway-widget.net/widgets/yormqJ#back" class="back"></a>
+    <h3 class="title">增加绑定手机号逻辑</h3>
+  </div>
+  <div class="slideBody">
+    <div class="content"><noscript><p class="beforeCategories">&nbsp;</p><h3 class='category category_16829'>New</h3>&nbsp;<p class="afterCategories">&nbsp;</p>
+<p>各位，我们刚刚上线了绑定手机号逻辑，如果有用户未绑定手机号的话，进入个人主页会跳转到个人资料页提示手机号。
+<img
+  src="https://cloud.headwayapp.co/changelogs_images/images/small/000/031/207-5439fd646dccf6e1b3975c2f341b95b697e483a5.png"
+  alt="WechatIMG113.png"
+  width=308.0
+  height=217.25
+/>
+</p></noscript></div>
+    <p class="link"><a target="_blank" href="https://headwayapp.co/baomitu-changelog/%E5%A2%9E%E5%8A%A0%E7%BB%91%E5%AE%9A%E6%89%8B%E6%9C%BA%E5%8F%B7%E9%80%BB%E8%BE%91-105479" data-path="/%E5%A2%9E%E5%8A%A0%E7%BB%91%E5%AE%9A%E6%89%8B%E6%9C%BA%E5%8F%B7%E9%80%BB%E8%BE%91-105479" rel="noopener noreferrer" class="">Read the whole post</a></p>
+  </div>
+  <div class="bottomBar">
+    <a href="https://headway-widget.net/widgets/yormqJ#back" class="back"></a>
+  </div>
+</div>
+<div class="logDetailsItem">
+  <div class="topBar">
+    <a href="https://headway-widget.net/widgets/yormqJ#back" class="back"></a>
+    <h3 class="title">更新邮箱校验逻辑</h3>
+  </div>
+  <div class="slideBody">
+    <div class="content"><noscript><p class="beforeCategories">&nbsp;</p><h3 class='category category_16830'>Improvement</h3>&nbsp;<p class="afterCategories">&nbsp;</p>
+<p>各位，我们刚刚上线了个邮箱校验的逻辑，如果有用户资料没有填邮箱的话进入个人主页会跳转到个人资料页提示补全邮箱。</p>
+<p><img src="http://p3.qhimg.com/t013e80224791c0aebd.png" alt=""></p></noscript></div>
+    <p class="link"><a target="_blank" href="https://headwayapp.co/baomitu-changelog/%E6%9B%B4%E6%96%B0%E9%82%AE%E7%AE%B1%E6%A0%A1%E9%AA%8C%E9%80%BB%E8%BE%91-103831" data-path="/%E6%9B%B4%E6%96%B0%E9%82%AE%E7%AE%B1%E6%A0%A1%E9%AA%8C%E9%80%BB%E8%BE%91-103831" rel="noopener noreferrer" class="">Read the whole post</a></p>
+  </div>
+  <div class="bottomBar">
+    <a href="https://headway-widget.net/widgets/yormqJ#back" class="back"></a>
+  </div>
+</div>
+<div class="logDetailsItem">
+  <div class="topBar">
+    <a href="https://headway-widget.net/widgets/yormqJ#back" class="back"></a>
+    <h3 class="title">图表组件</h3>
+  </div>
+  <div class="slideBody">
+    <div class="content"><noscript><p class="beforeCategories">&nbsp;</p><h3 class='category category_16829'>New</h3>&nbsp;<p class="afterCategories">&nbsp;</p>
+<p>声享新增了一个新的图表组件：在组件中编辑你的数据表，选择图表类型，添加数据指定表中的来源数据列即可生成图表～
+快来试一试吧！</p>
+<p><img src="http://p3.qhimg.com/t01fb52d20ad058d5fa.png" alt=""></p></noscript></div>
+    <p class="link"><a target="_blank" href="https://headwayapp.co/baomitu-changelog/%E5%9B%BE%E8%A1%A8%E7%BB%84%E4%BB%B6-103344" data-path="/%E5%9B%BE%E8%A1%A8%E7%BB%84%E4%BB%B6-103344" rel="noopener noreferrer" class="">Read the whole post</a></p>
+  </div>
+  <div class="bottomBar">
+    <a href="https://headway-widget.net/widgets/yormqJ#back" class="back"></a>
+  </div>
+</div>
+
+</div> <!-- /logDetails -->
+
+        </div> <!-- /innercont -->
+      </div> <!-- /cont -->
+    </div> <!-- /outercont -->
+
+
+  
+
+  
+  
+
+<style id="a11yStylesheet"></style></body></html>

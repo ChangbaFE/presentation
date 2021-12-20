@@ -30,7 +30,8 @@
 * [VSCode插件之字数统计、翻译](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/wordcount.md) by [guoruibiao](https://github.com/guoruibiao)
 * [grid基础](https://changbafe.github.io/presentation/archive_ppt/display_grid%E5%9F%BA%E7%A1%80%20-%20%E5%A3%B0%E4%BA%AB.html) by [庞博文](https://github.com/Y-ZZZzmzZZZ-H)
 * [从前端角度看weex](https://changbafe.github.io/presentation/archive_ppt/%E4%BB%8E%E5%89%8D%E7%AB%AF%E8%A7%92%E5%BA%A6%E7%9C%8Bweex%20-%20%E5%A3%B0%E4%BA%AB.html) by 张馨月
-
+* [如何禁止开发者操作网页上的DOM对象？](https://changbafe.github.io/presentation/archive_ppt/%E5%A6%82%E4%BD%95%E7%A6%81%E6%AD%A2%E5%BC%80%E5%8F%91%E8%80%85%E6%93%8D%E4%BD%9C%E7%BD%91%E9%A1%B5%E4%B8%8A%E7%9A%84DOM%E5%AF%B9%E8%B1%A1%EF%BC%9F%20-%20%E5%A3%B0%E4%BA%AB.html) by @[Hex](https://github.com/hex-ci)
+* [手摸手开发一个 VS Code 扩展](https://changbafe.github.io/presentation/archive_ppt/%E6%89%8B%E6%91%B8%E6%89%8B%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%20VScode%20%E6%89%A9%E5%B1%95%20-%20%E5%A3%B0%E4%BA%AB.html) by @[Hex](https://github.com/hex-ci)
 
 ## 第二季
 
