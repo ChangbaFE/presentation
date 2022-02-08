@@ -90,5 +90,5 @@
 * [Web前端杂谈](https://github.com/greatjiang/web-talk)【[视频](https://www.bilibili.com/video/BV1xL4y1n7rC/)】by [GreatJiang](https://github.com/greatjiang)
 * [谈谈EventLoop二三事](https://github.com/ChangbaFE/presentation/tree/master/static_ppt/谈谈EventLoop的二三事.key)【[视频](https://www.bilibili.com/video/BV1xM4y1F7E5/)】by 郑彦卿
 * [缓存与数据库双写一致性](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E7%BC%93%E5%AD%98%E4%B8%8E%E6%95%B0%E6%8D%AE%E5%BA%93%E5%8F%8C%E5%86%99%E4%B8%80%E8%87%B4%E6%80%A7.pptx)【[视频](https://www.bilibili.com/video/BV1gR4y1g7cC/)】by [王俊鹏](https://github.com/malayanhuigang)
-* [元宇宙](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E5%85%83%E5%AE%87%E5%AE%99.key) by 罗辉
+* [元宇宙](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E5%85%83%E5%AE%87%E5%AE%99.key)【[视频](https://www.bilibili.com/video/BV1aq4y1C7Lz)】by 罗辉
 * [Nginx配置解析](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/nginx%E9%85%8D%E7%BD%AE%E8%A7%A3%E6%9E%90.pptx)【[视频](https://www.bilibili.com/video/BV18S4y1T7Gv/)】by 侯世松
