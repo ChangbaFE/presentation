@@ -92,5 +92,5 @@
 * [缓存与数据库双写一致性](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E7%BC%93%E5%AD%98%E4%B8%8E%E6%95%B0%E6%8D%AE%E5%BA%93%E5%8F%8C%E5%86%99%E4%B8%80%E8%87%B4%E6%80%A7.pptx)【[视频](https://www.bilibili.com/video/BV1gR4y1g7cC/)】by [王俊鹏](https://github.com/malayanhuigang)
 * [元宇宙](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E5%85%83%E5%AE%87%E5%AE%99.key)【[视频](https://www.bilibili.com/video/BV1aq4y1C7Lz)】by 罗辉
 * [Nginx配置解析](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/nginx%E9%85%8D%E7%BD%AE%E8%A7%A3%E6%9E%90.pptx)【[视频](https://www.bilibili.com/video/BV18S4y1T7Gv/)】by 侯世松
-* [RPC学习](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/RPC%E5%AD%A6%E4%B9%A0.pptx) by 丰小刚
+* [RPC学习](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/RPC%E5%AD%A6%E4%B9%A0.pptx)【[视频](https://www.bilibili.com/video/BV1rZ4y1R7Q3/)】by 丰小刚
 * [井字棋之人机博弈](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E4%BA%95%E5%AD%97%E6%A3%8B%E4%B9%8B%E4%BA%BA%E6%9C%BA%E5%8D%9A%E5%BC%88.pptx) by 黄鹤
