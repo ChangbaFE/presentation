@@ -95,3 +95,4 @@
 * [RPC学习](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/RPC%E5%AD%A6%E4%B9%A0.pptx)【[视频](https://www.bilibili.com/video/BV1rZ4y1R7Q3/)】by 丰小刚
 * [井字棋之人机博弈](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E4%BA%95%E5%AD%97%E6%A3%8B%E4%B9%8B%E4%BA%BA%E6%9C%BA%E5%8D%9A%E5%BC%88.pptx) by 黄鹤
 * [Vue源码二](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/vue源码（二）.pptx) by 张杰
+* [前端提效D2C](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/vue源码（二）.pptx) by 庞博文
