@@ -98,3 +98,4 @@
 * [前端智能化D2C简单了解](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E5%89%8D%E7%AB%AF%E6%99%BA%E8%83%BD%E5%8C%96D2C%E7%AE%80%E5%8D%95%E4%BA%86%E8%A7%A3.pptx) by 庞博文
 * [Web Audio 基础与实例](https://hex-ci.github.io/presentation/web-audio.html) by @[Hex](https://github.com/hex-ci)
 * [Web 开发者工具的使用](https://res.cdn.changbaimg.com/-/cb40e0bfa8007e1f/Web%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7%E7%9A%84%E4%BD%BF%E7%94%A8.pptx) by @James
+* [前端游戏“巨制”](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E6%9C%89%E8%B6%A3%E7%9A%84%E4%BA%8C%E7%BB%B4%E7%A0%81.pptx.zip) by [孔慧慧](https://github.com/KongHuihui-CAD)
