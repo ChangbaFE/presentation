@@ -94,9 +94,11 @@
 * [Nginx配置解析](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/nginx%E9%85%8D%E7%BD%AE%E8%A7%A3%E6%9E%90.pptx)【[视频](https://www.bilibili.com/video/BV18S4y1T7Gv/)】by 侯世松
 * [RPC学习](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/RPC%E5%AD%A6%E4%B9%A0.pptx)【[视频](https://www.bilibili.com/video/BV1rZ4y1R7Q3/)】by 丰小刚
 * [井字棋之人机博弈](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E4%BA%95%E5%AD%97%E6%A3%8B%E4%B9%8B%E4%BA%BA%E6%9C%BA%E5%8D%9A%E5%BC%88.pptx)【[视频](https://www.bilibili.com/video/BV1b44y1n7To/)】by 黄鹤
+* [产品的情绪价值](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E4%BA%A7%E5%93%81%E7%9A%84%E6%83%85%E7%BB%AA%E4%BB%B7%E5%80%BC.pptx) by 曦曦
 * [Vue源码二](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/vue源码（二）.pptx) by 张杰
 * [前端智能化D2C简单了解](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E5%89%8D%E7%AB%AF%E6%99%BA%E8%83%BD%E5%8C%96D2C%E7%AE%80%E5%8D%95%E4%BA%86%E8%A7%A3.pptx) by 庞博文
 * [Web Audio 基础与实例](https://hex-ci.github.io/presentation/web-audio.html) by @[Hex](https://github.com/hex-ci)
 * [Web 开发者工具的使用](https://res.cdn.changbaimg.com/-/cb40e0bfa8007e1f/Web%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7%E7%9A%84%E4%BD%BF%E7%94%A8.pptx) by @James
 * [从零开始学视频剪辑](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E8%A7%86%E9%A2%91%E5%89%AA%E8%BE%91.pptx) by [王江波](https://github.com/CongratulateWE)
 * [前端游戏“巨制”](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/H5%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91.pptx) by [孔慧慧](https://github.com/KongHuihui-CAD)
+* [程序员的闲情雅致：养鱼篇](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E5%85%BB%E9%B1%BC%E6%97%A5%E8%AE%B0.pptx) by [GreatJiang](https://github.com/greatjiang)
