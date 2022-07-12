@@ -94,7 +94,7 @@
 * [Nginx配置解析](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/nginx%E9%85%8D%E7%BD%AE%E8%A7%A3%E6%9E%90.pptx)【[视频](https://www.bilibili.com/video/BV18S4y1T7Gv/)】by 侯世松
 * [RPC学习](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/RPC%E5%AD%A6%E4%B9%A0.pptx)【[视频](https://www.bilibili.com/video/BV1rZ4y1R7Q3/)】by 丰小刚
 * [井字棋之人机博弈](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E4%BA%95%E5%AD%97%E6%A3%8B%E4%B9%8B%E4%BA%BA%E6%9C%BA%E5%8D%9A%E5%BC%88.pptx)【[视频](https://www.bilibili.com/video/BV1b44y1n7To/)】by 黄鹤
-* [产品的情绪价值](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E4%BA%A7%E5%93%81%E7%9A%84%E6%83%85%E7%BB%AA%E4%BB%B7%E5%80%BC.pptx) by 曦曦
+* [产品的情绪价值](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E4%BA%A7%E5%93%81%E7%9A%84%E6%83%85%E7%BB%AA%E4%BB%B7%E5%80%BC.pptx)【[视频](https://www.bilibili.com/video/BV1EG411s7Cr/)】by 曦曦
 * [Vue源码二](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/vue源码（二）.pptx) by 张杰
 * [前端智能化D2C简单了解](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E5%89%8D%E7%AB%AF%E6%99%BA%E8%83%BD%E5%8C%96D2C%E7%AE%80%E5%8D%95%E4%BA%86%E8%A7%A3.pptx) by 庞博文
 * [Web Audio 基础与实例](https://hex-ci.github.io/presentation/web-audio.html) by @[Hex](https://github.com/hex-ci)
