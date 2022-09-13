@@ -101,5 +101,5 @@
 * [Web 开发者工具的使用](https://res.cdn.changbaimg.com/-/cb40e0bfa8007e1f/Web%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7%E7%9A%84%E4%BD%BF%E7%94%A8.pptx) by @James
 * [从零开始学视频剪辑](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%E8%A7%86%E9%A2%91%E5%89%AA%E8%BE%91.pptx) by [王江波](https://github.com/CongratulateWE)
 * [前端游戏“巨制”](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/H5%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91.pptx) by [孔慧慧](https://github.com/KongHuihui-CAD)
-* [教你拥有你的 Dream KeyBoard](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/keyboard.pptx) by [谢婷](https://github.com/xietingcindy)
+* [教你拥有你的 Dream KeyBoard](https://github.com/xietingcindy/ppt/blob/main/keyboard.pptx) by [谢婷](https://github.com/xietingcindy)
 * [程序员的闲情雅致：养鱼篇](https://github.com/ChangbaFE/presentation/blob/master/static_ppt/%E5%85%BB%E9%B1%BC%E6%97%A5%E8%AE%B0.pptx) by [GreatJiang](https://github.com/greatjiang)
